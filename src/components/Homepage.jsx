@@ -9,6 +9,7 @@ function Homepage() {
     <div className="homepage">
       <div className="intro">
         <h1 className="name"> Hi, I'm Brooke.</h1>
+        {/* <h2 className='engineer'>Front-End Software Engineer </h2> */}
         <p className="tagline">
           Looking to create code that makes a difference.
         </p>
