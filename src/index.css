@@ -1,3 +1,16 @@
+@media only screen and (max-width: 400px) {
+  html,body,#root,.App,.homepage-css{
+    background-image: url('./assets/bg.png');
+    background-color: #F6AB38;
+    background-position: fixed center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-attachment: fixed;
+    margin: 0 auto;
+    margin-top: 10vh;
+  }
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

@@ -17,8 +17,6 @@
     /* position: absolute; */
     font-size: 5vh;
   }
-  h1{
-  }
 }
 body::-webkit-scrollbar {
   display: none;
