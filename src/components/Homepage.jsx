@@ -9,24 +9,25 @@ function Homepage() {
     <div className="homepage">
       <div className="intro">
         <h1 className="name"> Hi, I'm Brooke.</h1>
-        {/* <h2 className='engineer'>Front-End Software Engineer </h2> */}
+        <br />
+        <br />
         <p className="tagline">
-          Looking to create code that makes a difference.
+          Front-End engineer looking to create code that makes a difference.
         </p>
       </div>
-
-      <div className="projects" id="projects">
+      <span id="projects"></span>
+      <div className="projects">
         <h2 className="project-title"> Projects. </h2>
         <p className="project-description">swipe to see them all!</p>
         <ProjectCarousel />
       </div>
+      <span id="about"></span>
 
       <div className="about" id="about">
         <h2 className="about-title"> About Me. </h2>
         <div className="overlay1">
           <div className="overlay2">
             <div className="overlay3">
-
               <img src={Me} className="me" alt="me" />
             </div>
           </div>
@@ -52,19 +53,19 @@ function Homepage() {
         <br />
         <br />
         <div className="skill-list">
+          <p className="skill-description">Skills:</p>
           <div className="css-wrap">
             <h3 className="css-name">CSS</h3>
             <img
               className="css"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-/>
+            />
           </div>
           <div className="js-wrap">
             <h3 className="js-name">JavaScript</h3>
             <img
               className="js"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-
               alt="javascript logo"
             />
           </div>
@@ -73,9 +74,7 @@ function Homepage() {
             <img
               className="html"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-
               alt="html logo"
-
             />
           </div>
           <div className="python-wrap">
@@ -83,9 +82,7 @@ function Homepage() {
             <img
               className="python"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-
               alt="python logo"
-
             />
           </div>
           <div className="react-wrap">
@@ -93,9 +90,7 @@ function Homepage() {
             <img
               className="react"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-
               alt="react logo"
-
             />
           </div>
           <div className="mongo-wrap">
@@ -103,13 +98,20 @@ function Homepage() {
             <img
               className="mongo"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-
-              alt="css logo"
-
+              alt="mongo logo"
+            />
+          </div>
+          <div className="node-wrap">
+            <h3 className="node-name">node.js</h3>
+            <img
+              className="node"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="node logo"
             />
           </div>
         </div>
       </div>
+      <span id="contact"></span>
 
       <div className="contact" id="contact">
         <h2 className="contact-title">Let's get in touch!</h2>
@@ -123,9 +125,7 @@ function Homepage() {
           <p className="email">bancalhoun@ymail.com</p>
           <p className="number">602.488.9355</p>
           <a href="https://hihello.me/p/d1926065-47e2-4ad3-958a-847ab7fdf877">
-
             <img src={QR} className="qr" alt="qr code" />
-
           </a>
           <br />
           <p className="qr-title">
@@ -133,11 +133,16 @@ function Homepage() {
           </p>
         </div>
       </div>
-
+      <span id="resume"></span>
       <div className="resume" id="resume">
         <h2 className="resume-title">Resume.</h2>
 
         <Resume />
+      </div>
+      <br />
+      <div className='footer'>
+     <a href='https://github.com/brookecalhoun'> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+     <a href='https://www.linkedin.com/in/brooke-calhoun'> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" /> </a>
       </div>
     </div>
   );

@@ -49,13 +49,14 @@ body::-webkit-scrollbar {
 
 /* footer */
 .footer {
+  display: flex;
+  justify-content: center;
+}
+.footer img{
+  width: 3vw;
   opacity: 0.5;
-  height: 9vh;
-  background-color: #da2b42;
 }
-.b-footer {
-  height: 6vh;
-}
+
 /* homepage */
 .name {
   padding-top: 30vh;
@@ -72,7 +73,10 @@ body::-webkit-scrollbar {
   font-size: 8vh;
   color: #82363a;
   width: 60%;
-  text-shadow: 2px 2px #fdfcdb;
+  background: #ef8c98;
+  text-shadow: 2px 2px #da2b42;
+  padding: 1vw;
+  border-radius: 30px;
 }
 .intro {
   display: flex;
@@ -183,10 +187,11 @@ button:focus {
 .project-description {
   background: #da2b42;
   color: #fdfcdb;
-  font-size: 7vh;
+  font-size: 6vh;
   margin: 0 auto;
   width: 40%;
   border-radius: 100px;
+  word-wrap: break-word;
 }
 
 /* about */
@@ -199,7 +204,7 @@ button:focus {
   font-size: 25vh;
 }
 .me {
-  width: 30vw;
+  width: 40vh;
   border-radius: 60px;
   opacity: 0.8;
   padding: 5vh;
@@ -207,7 +212,7 @@ button:focus {
 .overlay1 {
   background-color: #ef8c98;
   margin: 0 auto;
-  width: 48vw;
+  width: 70vh;
   border-radius: 60px;
   padding: 3vh;
 }
@@ -216,13 +221,13 @@ button:focus {
   margin: 0 auto;
   padding-bottom: 5vh;
   padding-top: 5vh;
-  width: 40vw;
+  width: 55vh;
   border-radius: 60px;
 }
 .overlay3 {
   background-color: #fb9500;
   margin: 0 auto;
-  width: 30vw;
+  width: 45vh;
   border-radius: 60px;
 }
 .css-wrap {
@@ -357,14 +362,42 @@ button:focus {
 .mongo {
   height: 10vh;
 }
+.node-wrap {
+  position: relative;
+}
+.node-name {
+  position: absolute;
+  top: -80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #82363a;
+  text-shadow: 1px 1px #fdfcdb;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+.node-wrap:hover .node-name {
+  visibility: visible;
+  opacity: 1;
+}
+.node {
+  height: 10vh;
+}
+.skill-description{
+  color: #fdfcdb;
+  font-size: 8vh;
+}
 .skill-list {
+  margin: 0 auto;
   display: flex;
   align-content: center;
   justify-content: space-between;
   background-color: #ef8c98;
-  width: 100%;
+  width: 70%;
   height: 15vh;
   padding: 3vh;
+  border-radius: 20px;
 }
 .about-me {
   padding: 20px;
@@ -390,6 +423,7 @@ button:focus {
 }
 .contact {
   margin-top: 14%;
+  word-wrap: break-word;
 }
 .contact-list {
   background-color: #da2b42;
@@ -414,7 +448,7 @@ button:focus {
   text-decoration: #fb9500 wavy underline;
 }
 .email {
-  font-size: 5vh;
+  font-size: 3.5vh;
   color: #fdfcdb;
 }
 .number {
