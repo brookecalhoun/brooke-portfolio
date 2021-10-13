@@ -8,10 +8,8 @@
   src: url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff2") format("woff2"),
     url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff") format("woff");
 }
-@media only screen and (max-width: 400px) {
-  .App{
-    background-size: 400px;
-  }
+@media screen and (max-width: 600px) {
+
 }
 body::-webkit-scrollbar {
   display: none;
