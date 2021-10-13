@@ -9,13 +9,8 @@
     url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff") format("woff");
 }
 @media only screen and (max-width: 400px) {
-  .intro {
-    width: 100%;
-    margin-top: -35%;
-    position: inherit;
-    position: static;
-    /* position: absolute; */
-    font-size: 5vh;
+  .App{
+    background-size: 400px;
   }
 }
 body::-webkit-scrollbar {
