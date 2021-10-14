@@ -3,6 +3,7 @@ import Me from "../assets/me.jpg";
 import QR from "../assets/qr.png";
 import ProjectCarousel from "./ProjectCarousel";
 import Resume from "./Resume";
+import resume from "../assets/resume.pdf";
 
 function Homepage() {
   return (
@@ -138,6 +139,11 @@ function Homepage() {
         <h2 className="resume-title">Resume.</h2>
 
         <Resume />
+        <button>
+          <a href={resume} download>
+            Click to Download
+          </a>
+        </button>
       </div>
       <br />
       <div className="footer">
