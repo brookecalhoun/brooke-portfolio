@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import resume from "../assets/resume.pdf";
 
-export default function Resume() {
+function ResumePDF() {
   pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -63,7 +63,7 @@ export default function Resume() {
     </>
   );
 }
-
+export default ResumePDF
 // import React from 'react';
 // import {
 //   pdf,
