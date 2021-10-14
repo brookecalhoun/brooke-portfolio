@@ -8,7 +8,7 @@
   src: url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff2") format("woff2"),
     url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff") format("woff");
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .App {
     width: 100%;
     margin-top: -35%;
@@ -51,9 +51,11 @@ body::-webkit-scrollbar {
 .footer {
   display: flex;
   justify-content: center;
+  background: #82363a9e;
+  padding: 2vh;
 }
 .footer img {
-  width: 3vw;
+  width: 5vw;
   opacity: 0.5;
 }
 
@@ -123,6 +125,14 @@ body::-webkit-scrollbar {
   font-size: 3vh;
   border-radius: 10px;
   padding-top: 8px;
+}
+.more-button a{
+  color: #db4142;
+  text-decoration: none;
+}
+.more-button:hover a{
+  color: #fdfdfd;
+  text-decoration: none;
 }
 button:active {
   outline: none;
@@ -394,9 +404,9 @@ button:focus {
   justify-content: space-between;
   background-color: #ef8c98;
   width: 70%;
-  height: 15vh;
   padding: 3vh;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 .about-me {
   padding: 20px;
