@@ -42,12 +42,12 @@ function Homepage() {
             learn new skills. One new skill that I had learned was problem
             solving. I was able to build upon that skill later by taking the
             General Assembly Software Engineer Immersive course (the largest
-            learning experience of my life thus far). Throughout my life, I've
+            learning experience of my life thus far.) Throughout my life, I've
             also had to develop gritt, due to my mother being a drug addict.
             Luckily this led me to form my strong moral code and pushed me to
             want to pursue a career I could make a difference in. When I'm not
             coding, you can find me hanging out with my dog, Frank and my
-            chicken, Gertrude (probably daydreaming about more pets).
+            chicken, Gertrude (probably daydreaming about more pets.)
           </p>
         </div>
         <br />
@@ -102,7 +102,7 @@ function Homepage() {
             />
           </div>
           <div className="node-wrap">
-            <h3 className="node-name">node.js</h3>
+            <h3 className="node-name">Node.js</h3>
             <img
               className="node"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
@@ -140,10 +140,19 @@ function Homepage() {
         <Resume />
       </div>
       <br />
-      <div className='footer'>
-     <a href='https://github.com/brookecalhoun'> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> </a> &nbsp; &nbsp; &nbsp; &nbsp;
-     <a href='https://www.linkedin.com/in/brooke-calhoun'> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" /> </a>
+      <div className="footer">
+        <a href="https://github.com/brookecalhoun">
+          {" "}
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />{" "}
+        </a>{" "}
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="https://www.linkedin.com/in/brooke-calhoun">
+          {" "}
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />{" "}
+        </a>
       </div>
+      <br />
+      <br />
     </div>
   );
 }

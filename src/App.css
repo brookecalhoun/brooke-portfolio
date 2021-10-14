@@ -9,12 +9,12 @@
     url("./assets/fonts/abstractgroovy-k7zdy-webfont.woff") format("woff");
 }
 @media only screen and (max-width: 600px) {
-  .App{
+  .App {
     width: 100%;
     margin-top: -35%;
     position: inherit;
   }
-  .me{
+  .me {
     width: 50vh;
   }
 }
@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
 }
-.footer img{
+.footer img {
   width: 3vw;
   opacity: 0.5;
 }
@@ -70,11 +70,10 @@ body::-webkit-scrollbar {
 }
 .tagline {
   margin: 0 auto;
-  font-size: 8vh;
+  font-size: 4.5vh;
   color: #82363a;
   width: 60%;
-  background: #ef8c98;
-  text-shadow: 2px 2px #da2b42;
+  /* background: #ef8c98; */
   padding: 1vw;
   border-radius: 30px;
 }
@@ -384,7 +383,7 @@ button:focus {
 .node {
   height: 10vh;
 }
-.skill-description{
+.skill-description {
   color: #fdfcdb;
   font-size: 8vh;
 }
@@ -474,12 +473,12 @@ button:focus {
   text-shadow: 2px 2px #fdfcdb;
   font-size: 18vh;
 }
-.resume-pdf{
+.resume-pdf {
   display: flex;
   justify-content: center;
   border-radius: 10px;
 }
-.Pre{
+.Pre {
   color: #db4142;
   background: #fdfcdb;
   box-shadow: 0px 0px 0px transparent;
@@ -487,7 +486,7 @@ button:focus {
   border-radius: 10px;
   padding-top: 8px;
 }
-.Post{
+.Post {
   color: #db4142;
   background: #fdfcdb;
   box-shadow: 0px 0px 0px transparent;
