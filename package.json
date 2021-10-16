@@ -1,6 +1,6 @@
 {
-  "name": "new-portfolio",
-  "homepage": "http://brookecalhoun.github.io/brooke-portfolio",
+  "name": "brookecalhoun",
+  "homepage": "https://brookecalhoun.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
