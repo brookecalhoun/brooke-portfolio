@@ -1,6 +1,5 @@
 import React from "react";
-import mail from '../assets/mail.svg'
-
+import mail from "../assets/mail.svg";
 
 function Footer() {
   return (
@@ -13,10 +12,12 @@ function Footer() {
       <a href="https://www.linkedin.com/in/brooke-calhoun">
         {" "}
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />{" "}
-      </a> 
+      </a>
       &nbsp; &nbsp; &nbsp; &nbsp;
-      <a href="mailto:bancalhoun@ymail.com"><img src={mail}/></a>
+      <a href="mailto:bancalhoun@ymail.com">
+        <img src={mail} />
+      </a>
     </div>
   );
 }
- export default Footer
+export default Footer;
