@@ -36,7 +36,9 @@ function ProjectCarousel() {
             </a>
           </Button>
           <Button className="more-button" variant="danger">
-            Live Demo
+          <a href='https://koruhelp.netlify.app/'>
+              Live Demo
+            </a>
           </Button>
         </ButtonGroup>
         <br />
