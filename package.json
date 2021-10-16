@@ -1,6 +1,6 @@
 {
   "name": "new-portfolio",
-  "homepage": "http://brookecalhoun.github.io/brooke-portfolio",
+  "homepage": "https://brookecalhoun.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
